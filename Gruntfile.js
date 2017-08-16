@@ -40,8 +40,8 @@ module.exports = function (grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:hardyj1/Portfolio.git',
-          branch: 'gh-pages'
+          remote: 'https://github.com/hardyj1/hardyj1.github.io.git',
+          branch: 'master'
         }
       }
     },
@@ -331,6 +331,7 @@ module.exports = function (grunt) {
           src: [
             '*.txt',
             'images/{,*/}*.webp',
+            "CNAME",
             '{,*/}*.html',
             'fonts/{,*/}*.*'
           ]
