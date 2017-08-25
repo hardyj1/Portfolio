@@ -11,8 +11,6 @@ body {
 header {
   background-image: url("../img/spaceneedle2.jpg");
   background-size: cover;
-  position: absolute;
-  z-index: -1;
 }
 
 header {
@@ -54,7 +52,7 @@ header {
   height: 100%;
   overflow: hidden;
   background: inherit;
-  z-index: 1;
+  z-index: 2;
   /* Keeps borders smooth in webkit */
   backface-visibility: hidden;
 }
