@@ -13,6 +13,10 @@ header {
   background-size: cover;
 }
 
+header {
+  background: none;
+}
+
 /* header section headshot styling */
 .hexagon {
   position: relative;
@@ -21,7 +25,7 @@ header {
   height: 110px;
   background-image: url('../img/headshot2.jpg');
   background-position: center center;
-  z-index: 1;
+  
   /* Text styling */
   line-height: 110px;
   text-align: center;
@@ -101,9 +105,4 @@ section.success {
     width: 300px;
     height: 2px;
     margin: 20px auto 30px auto;
-}
-
-header {
-
-  background: none;
 }
