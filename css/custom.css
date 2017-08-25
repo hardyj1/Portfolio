@@ -102,3 +102,8 @@ section.success {
     height: 2px;
     margin: 20px auto 30px auto;
 }
+
+header {
+
+  background: none;
+}
